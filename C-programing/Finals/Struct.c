@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<time.h>
 
-struct GPA{
+typedef struct GPA{
 float    PF;
 float    LA;
 float    BE;
@@ -9,7 +9,7 @@ float    DLD;
 float    CAL2;
 };
 
-struct Hassan{
+typedef struct Hassan{
 float Height;
 int salary;
 struct GPA GPA;
